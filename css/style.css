@@ -68,7 +68,16 @@ h1,h2,h3,h4,h5,h6 {
 	padding:0;
 	font-family: 'Raleway', sans-serif;
 }
-
+.about-button{
+    color:navy;
+    height:35px;
+    width:120px;
+    border-radius:12px;
+    transition-duration: 0.4s;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: 2px solid #4CAF50;
+}
 
 /*-- Header Section --*/
 /*-- Navbar --*/
@@ -250,16 +259,16 @@ label.aline{
 	text-align:left;
 	margin-bottom:10px;
 }
-.abouttext a{
-	background-color:black;
-	padding:10px 20px;
-	color:white;
-	display:inline-block;
-	margin-top:5px;
-	border: 2px solid black;
-	font-size: 13px;
+.abouttext button{
+	height:35px;
+	width:120px;
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	border-radius:12px;
+	text-align:center;
 }
-.abouttext a:hover{
+.abouttext button:hover{
 	border: 2px solid black;
 	background:transparent;
 }
@@ -1777,7 +1786,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		font-size:13px;
 		line-height:20px;
 	}
-	.abouttext a{
+	.abouttext button{
 		padding:7px 15px;
 	}
 	div#gallery h3{
@@ -1915,7 +1924,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		line-height: 21px;
 		padding-bottom: 6px;
 	}
-	.abouttext a {
+	.abouttext button {
 		padding: 5px 10px;
 		font-size:13px;
 	}
@@ -2065,7 +2074,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		text-align:left;
 		margin-bottom:20px;
 	}
-	.abouttext a{
+	.abouttext button{
 		background-color:black;
 		padding:10px 20px;
 		color:white;
@@ -2253,14 +2262,14 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		text-align:left;
 		margin-bottom:15px;
 	}
-	.abouttext a{
-		background-color:black;
-		padding:10px 20px;
-		color:white;
-		display:inline-block;
-		margin-top:5px;
-		border: 2px solid black;
-		font-size: 13px;
+	.abouttext button{
+		height:35px;
+		width:120px;
+		background-color: black;
+		color: white;
+		border: 1px solid white;
+		border-radius:12px;
+		text-align:center;
 	}
 	.arrow:before {
 		top: 165px;
@@ -2466,7 +2475,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
    .abouttext p{
 	   font-size:13px;
 	}
-   .abouttext a {
+   .abouttext button {
 		padding: 7px 15px;
 	}
 	.arrow:before {
@@ -2989,7 +2998,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	.abouttext p {
 		line-height: 19px;
 	}
-	.abouttext a {
+	.abouttext button {
 		padding: 5px 10px;
 		font-size:12px;
 	}
@@ -3178,7 +3187,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		width:184px;
 		padding: 25px 11px;
 	}
-	.abouttext a {
+	.abouttext button {
 		padding: 3px 7px;
 		font-size: 10px;
 	}
@@ -3342,7 +3351,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		line-height: 16px;
 		margin-bottom:10px;
 	}
-	.abouttext a {
+	.abouttext button {
 		padding: 4px 6px;
 		font-size: 9px;
 	}
