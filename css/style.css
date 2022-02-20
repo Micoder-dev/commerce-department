@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .navbar-default .navbar-brand {
     color:#FFFEFE;
-    font-size: 35px;
+    font-size: 27px;
 	font-weight: 700;
 	font-family: 'Dancing Script', cursive;
 }
@@ -150,11 +150,11 @@ label.line{
 	text-align:left;
 }
 .aboutleftbottom {
-    border: 1px solid #C5C5C5;
+    border: 0px solid #C5C5C5;
     padding: 25px 25px;
     text-align: left;
     position: absolute;
-    width: 68%;
+    width: 140%;
     top: 110px;
     left: -268px;
     color: black;
@@ -3163,8 +3163,13 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	}
 	
 	.aboutleftbottom {
-		top: 105px;
-		width:248px;
+	    border: 1px solid #C5C5C5;
+		top: -10px;
+		width:320px;
+		height:190px;
+	}
+	.aboutleftbottom p{
+	     color:navy;   
 	}
 	.aboutimg{
 		width:183px;
