@@ -163,7 +163,7 @@ label.line{
     padding: 25px 25px;
     text-align: left;
     position: absolute;
-    width: 80%;
+    width: 55%;
     top: 110px;
     left: -268px;
     color: black;
@@ -2191,10 +2191,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		margin: 0 0px;
 	}
 	
-	.logo-blur{
-	 filter: blur(8px);
-	 -webkit-filter: blur(4px);
-	}
+	
 
 	.about h3{
 		font-size:30px;
@@ -3178,9 +3175,9 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	
 	.aboutleftbottom {
 	    border: 1px solid #C5C5C5;
-		top: 1px;
+		top: 320px;
 		width:320px;
-		height:150px;
+		height:100px;
 	}
 	.aboutleftbottom p{
 	     color:navy;   
