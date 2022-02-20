@@ -159,11 +159,11 @@ label.line{
 	text-align:left;
 }
 .aboutleftbottom {
-    border: 0px solid #C5C5C5;
+    border: 1px solid #C5C5C5;
     padding: 25px 25px;
     text-align: left;
     position: absolute;
-    width: 140%;
+    width: 80%;
     top: 110px;
     left: -268px;
     color: black;
@@ -2190,6 +2190,11 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	.navbar-nav>li>a {
 		margin: 0 0px;
 	}
+	
+	.logo-blur{
+	 filter: blur(8px);
+	 -webkit-filter: blur(4px);
+	}
 
 	.about h3{
 		font-size:30px;
@@ -3173,9 +3178,9 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	
 	.aboutleftbottom {
 	    border: 1px solid #C5C5C5;
-		top: -10px;
+		top: 1px;
 		width:320px;
-		height:190px;
+		height:150px;
 	}
 	.aboutleftbottom p{
 	     color:navy;   
