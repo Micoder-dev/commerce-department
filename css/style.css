@@ -3170,6 +3170,11 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	
   }
   @media (max-width:384px){
+ 
+    .slider1{
+    margin-top:40px;
+    }
+
 	.about h6 {
 		padding-bottom: 20px;
 	}
