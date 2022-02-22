@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 /*-- Header Section --*/
 /*-- Navbar --*/
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse, .-default .navbar-form {
     border-color:transparent;
 
 }
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6 {
     color:#FFFEFE;
     font-size: 19px;
 	font-weight: 700;
-	font-family: 'Dancing Script',courier;
+	font-family: courier;
 }
 .navbar-default {
 	background-color: #07cbc9;
