@@ -1811,6 +1811,12 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	.stats p{
 		padding:0;
 	}
+	
+	.stats img{
+	height:400px;
+	}
+	
+	
 	.events h3{
 		font-size:35px;
 	}
@@ -3028,6 +3034,12 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	.stats-grid {
 		font-size: 27px;
 	}
+	
+	.stats img{
+	height:280px;
+	}
+	
+	
 	.stats p {
 		font-size: 13px;
 	}
