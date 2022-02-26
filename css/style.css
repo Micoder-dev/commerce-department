@@ -167,7 +167,7 @@ label.line{
     padding: 25px 25px;
     text-align: left;
     position: absolute;
-    width: 50%;
+    width: 55%;
     top: 110px;
     left: -268px;
     color: black;
@@ -275,7 +275,8 @@ label.aline{
 }
 .abouttext button:hover{
 	border: 2px solid black;
-	background:transparent;
+	background:white;
+    color:black;
 }
 .arrow:before {
 	content: '';
