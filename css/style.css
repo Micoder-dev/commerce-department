@@ -1104,6 +1104,10 @@ label.fline{
 	height: 400px;
 }
 
+.stats img{
+    height:400px;
+}
+
 .stats-info {
 	text-align: center;
 	margin-top: 125px;
