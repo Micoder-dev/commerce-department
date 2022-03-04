@@ -83,11 +83,27 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 .navbar-default .navbar-brand {
-    color:#FFFEFE;
+    color:transparent;
     font-size: 19px;
 	font-weight: 700;
-	font-family: courier;
+	font-variant: small-caps;
+	animation: effect 20s linear infinite;
 }
+
+@keyframes effect {
+  0% { color: red; }
+  10% { color: #ff0066; }
+  20% { color: blue; }
+  30% { color: green; }
+  40% { color: red; }
+  50% { color: gold; }
+  60% { color: black; }
+  70% { color: #ff9900; }
+  80% { color: #ffffff; }
+  90% { color: #6600cc; }
+  100% { color: #666699; }
+}
+
 .navbar-default {
 	background-color: #07cbc9;
     border-color:transparent;
